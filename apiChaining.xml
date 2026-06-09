@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Chaining Suite">
+
+    <test name="CRUD Operations">
+
+        <classes>
+
+            <class name="APIChaining.createUser"/>
+
+            <class name="APIChaining.getUser"/>
+
+            <class name="APIChaining.updateUser"/>
+
+            <class name="APIChaining.deleteUser"/>
+
+        </classes>
+
+    </test>
+
+</suite>
